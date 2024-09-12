@@ -21,8 +21,7 @@ body {
   line-height: 19px;
   background-color: #3131310d;
 }
-.header {
-}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -47,9 +46,7 @@ body {
   border: 1px solid transparent;
   background: ("/Vector.png");
 }
-.search__btn {
-  padding-right: ;
-}
+
 .top__heading {
   display: flex;
   padding: 50 0 30px;
@@ -91,8 +88,7 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
-.search__job {
-}
+
 .job__tutorial {
   width: 393px;
   height: 94px;
@@ -119,8 +115,7 @@ body {
   opacity: 0px;
 }
 
-.steps__aplly li {
-}
+
 
 ol {
   list-style-type: none;
@@ -458,14 +453,27 @@ ol li:before {
   justify-content: space-between;
 }
 
-.footer_inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+.footer__inner{
+display:flex;
+justify-content: space-between;
+align-items:center;
+height: 100px;
+
 }
-.final__inner{
-    display: flex;
-    flex-direction: column;
     
+.footer__list{
+    display:flex;
+    list-style-type: none;
+     
+}
+
+.footer__item{
+    margin: 0 15px;
+    align-items: center;
+}
+.footer__list-link{
+    color:#272323;  
+}
+.line{
+    border-bottom: 2px solid #625BAE;
 }
